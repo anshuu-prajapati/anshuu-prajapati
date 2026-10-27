@@ -1,5 +1,5 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
-<img src="assets/header.svg" width="100%" alt="Anshu Prajapati — AI Engineer · Agentic AI · RAG · Multimodal Systems"/>
+<img src="header.svg" width="100%" alt="Anshu Prajapati — AI Engineer · Agentic AI · RAG · Multimodal Systems"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=900&color=EC3013&vCenter=true&width=760&lines=Production+agentic+AI+on+AWS+Bedrock+%2B+LangGraph;Voice+agents+%C2%B7+WhatsApp+agents+%C2%B7+Meeting+assistants;RAG+%2B+Knowledge+Graphs+for+entity-level+reasoning;Computer+vision+%2B+sensor+fusion+in+real+time" alt="Typing SVG"/>
 
@@ -235,4 +235,4 @@ Turns raw government open data into a district-level employment dashboard with a
 
 Open to AI/ML collabs, GenAI and LLM projects, AI Agent work, Voice AI, Computer Vision, and interesting startup ideas.
 
-<a href="mailto:anshuuprajapati01@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let's build something — anshuuprajapati01@gmail.com"/></a>
+<a href="mailto:anshuuprajapati01@gmail.com"><img src="footer.svg" width="100%" alt="Let's build something — anshuuprajapati01@gmail.com"/></a>
