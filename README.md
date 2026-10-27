@@ -1,167 +1,238 @@
-<div align="center">
+<!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
+<img src="assets/header.svg" width="100%" alt="Anshu Prajapati — AI Engineer · Agentic AI · RAG · Multimodal Systems"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1020,50:312E81,100:0891B2&height=200&section=header&text=ANSHU%20PRAJAPATI&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=38&desc=AI%20ENGINEER%20%7C%20GenAI%20%7C%20Computer%20Vision%20%7C%20AI%20Agents&descAlignY=60&descSize=16&descColor=67E8F9" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=900&color=EC3013&vCenter=true&width=760&lines=Production+agentic+AI+on+AWS+Bedrock+%2B+LangGraph;Voice+agents+%C2%B7+WhatsApp+agents+%C2%B7+Meeting+assistants;RAG+%2B+Knowledge+Graphs+for+entity-level+reasoning;Computer+vision+%2B+sensor+fusion+in+real+time" alt="Typing SVG"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=750&lines=Building+AI+systems+that+solve+real+problems;LLMs+%7C+RAG+%7C+AI+Agents+%7C+LangGraph;Voice+AI+%7C+WhatsApp+Automation+%7C+FastAPI;Deep+Person+Re-ID+%7C+Computer+Vision;From+prototype+to+production-ready+AI" alt="Typing SVG"/>
+<a href="https://anshu-six.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-201E1D?style=for-the-badge&logo=vercel&logoColor=EC3013"/></a>
+<a href="https://www.linkedin.com/in/anshuu-prajapati/"><img src="https://img.shields.io/badge/LinkedIn-201E1D?style=for-the-badge&logo=linkedin&logoColor=EC3013"/></a>
+<a href="mailto:anshuuprajapati01@gmail.com"><img src="https://img.shields.io/badge/Email-201E1D?style=for-the-badge&logo=gmail&logoColor=EC3013"/></a>
+<!-- TODO: replace YOUR_USERNAME, or delete badges you don't need -->
+<a href="https://huggingface.co/YOUR_USERNAME"><img src="https://img.shields.io/badge/Hugging_Face-201E1D?style=for-the-badge&logo=huggingface&logoColor=EC3013"/></a>
+<a href="https://www.kaggle.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/Kaggle-201E1D?style=for-the-badge&logo=kaggle&logoColor=EC3013"/></a>
+<a href="https://leetcode.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/LeetCode-201E1D?style=for-the-badge&logo=leetcode&logoColor=EC3013"/></a>
+<img src="https://komarev.com/ghpvc/?username=anshuu-prajapati&style=for-the-badge&color=EC3013&label=PROFILE+VIEWS"/>
 
+| `00` | Contents |
+|:--|:--|
+| `01` | [About](#about) · `02` [Impact](#impact) · `03` [Projects](#projects) · `04` [Tech Stack](#stack) · `05` [Achievements](#achievements) · `06` [Stats](#stats) · `07` [Contact](#contact) |
+
+---
+
+<!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+<a id="about"></a>
+## `01` About Me
+
+I'm an **AI Engineer at Maaze Underwriting Pvt Solutions** in Delhi, building agentic AI that runs in production: voice-calling agents, multi-tenant WhatsApp agents, real-time meeting assistants, RAG over knowledge graphs, and computer vision fused with sensor data.
+
+| | |
+|:--|:--|
+| **Now** | Scaling voice + WhatsApp agents to 1,000+ concurrent conversations |
+| **Exploring** | Pairing vector search with knowledge graphs |
+| **Care about** | Guardrails, human-in-the-loop approval, cost and latency |
+| **Studying** | B.Sc. Computer Science, IGNOU (CGPA 8.2/10) |
+| **Ask me about** | LangGraph, AWS Bedrock, RAG, YOLO, FastAPI |
+
+> **If it doesn't survive real users, real edge cases and real load, it isn't done.**
+
+---
+
+<!-- ═══════════════════════════════ IMPACT ═══════════════════════════════ -->
+<a id="impact"></a>
+## `02` Impact at Work
+
+| <h3>1,000+</h3>concurrent agent conversations | <h3>−45%</h3>manual handling time | <h3>+28%</h3>intent-classification accuracy | <h3>−30%</h3>LLM inference cost |
+|:---|:---|:---|:---|
+| <h3>+20%</h3>retrieval precision | <h3>150+</h3>daily meeting-assistant users | <h3>92%</h3>collision-prediction accuracy | <h3>96% @ 30 FPS</h3>passenger counting |
+
+<details>
+<summary><b>How these were achieved</b></summary>
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-0B1020?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshuu-prajapati)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1020?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/anshuu-prajapati/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0B1020?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://anshu.tech/)
-[![Email](https://img.shields.io/badge/Email-0B1020?style=for-the-badge&logo=gmail&logoColor=22D3EE)](mailto:anshuuprajapati01@gmail.com)
+- **Agents:** autonomous Twilio voice agent + multi-tenant WhatsApp agent on AWS Bedrock and LangGraph
+- **Routing:** LLM orchestrator with intent parsing and function calling across rule engines, ML pipelines and agents
+- **Cost:** batching, LLM caching and token optimization
+- **Retrieval:** Pinecone combined with multi-tenant knowledge graphs (+20% precision, −30% latency)
+- **Meetings:** streaming speech-to-text agent joining Teams, Meet and Zoom (92% satisfaction)
+- **Perception:** video + g-force/delta-velocity fusion, 10 ms gyroscope detector (98%), YOLOv8x + BoxMOT counting
+- **Shipping:** Dockerized FastAPI microservices on Kubernetes with CI/CD and A/B evaluation
 
+</details>
+
+---
+
+<!-- ═══════════════════════════════ PROJECTS ═══════════════════════════════ -->
+<a id="projects"></a>
+## `03` Featured Projects
+
+#### `A` Agentic AI & Voice
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [GPS Fleet Voice Agent](https://github.com/anshuu-prajapati/gps-voice-agent)
+Places outbound calls to drivers and extracts service needs from Hindi / Hinglish speech with an LLM.
+
+![](https://img.shields.io/badge/LangGraph-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Bedrock-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Twilio-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/FastAPI-2D2B2B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [Agentic Outreach Automation](https://github.com/anshuu-prajapati/Email_Automation)
+Four-stage agent: find companies → find leads → draft emails → send, with human approval, spend budgets and rate limits.
+
+![](https://img.shields.io/badge/Claude_Agents-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Streamlit-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Gmail_API-2D2B2B?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Vehicle Support Chatbot](https://github.com/anshuu-prajapati/Vehicle_support_chatbot)
+WhatsApp RAG assistant with live vehicle-API tool calls, retries, conversation state and ticket workflows.
+
+![](https://img.shields.io/badge/Llama_3.3_70B-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Qdrant-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/PostgreSQL-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Redis-2D2B2B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [WhatsApp GPS Bot](https://github.com/anshuu-prajapati/whatsapp-bot)
+Fleet status, service booking and bulk updates, all over WhatsApp.
+
+![](https://img.shields.io/badge/WhatsApp_Cloud_API-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/LLM-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Python-2D2B2B?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+#### `B` Computer Vision & Multimodal
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [DocuSentinel](https://github.com/anshuu-prajapati/DocuSentinel) &nbsp;![](https://img.shields.io/badge/SIH-EC3013?style=flat-square)
+Screens passports, visas and IDs: OCR + MRZ checksums, tamper forensics and FaceNet matching → one explainable 0–100 risk score in ~2 s.
+
+![](https://img.shields.io/badge/FastAPI-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Tesseract-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/FaceNet-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/pytest-2D2B2B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [ClipForge](https://github.com/anshuu-prajapati/clipforge)
+Long video → ranked vertical shorts: Whisper word timings → LLM hook scoring → NMS dedup → face-tracked 9:16 with motion captions.
+
+![](https://img.shields.io/badge/Whisper-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Claude-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/FFmpeg-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/CUDA-2D2B2B?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [TransitCount](https://github.com/anshuu-prajapati/TransitCount)
+Real-time bus passenger counter on live streams, with a 3-state door counter, staff-vest exemption and Kalman-smoothed tracking.
+
+![](https://img.shields.io/badge/YOLOv8-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/ByteTrack-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/OpenCV-2D2B2B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [Deep Person Re-ID](https://github.com/anshuu-prajapati/Deep-person-reid)
+Matches the same person across frames and camera streams.
+
+![](https://img.shields.io/badge/PyTorch-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Torchreid-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/DeepSORT-2D2B2B?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+#### `C` Open Source & Fun
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [YT ASCII Player](https://github.com/anshuu-prajapati/YT-ASCII-PLAYER)
+Play any YouTube video as synced, true-colour ASCII art in your terminal. One `pip install ytascii-player`, no ffmpeg setup.
+
+![](https://img.shields.io/badge/PyPI-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/OpenCV-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/yt--dlp-2D2B2B?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+### [MGNREGA District Dashboard](https://github.com/anshuu-prajapati/MGNREGA-District-Dashboard)
+Turns raw government open data into a district-level employment dashboard with auto location detection.
+
+![](https://img.shields.io/badge/React-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/Node.js-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/MongoDB-2D2B2B?style=flat-square) ![](https://img.shields.io/badge/data.gov.in-2D2B2B?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More repositories</b></summary>
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=anshuu-prajapati&style=for-the-badge&color=22D3EE&label=PROFILE+VIEWS" />
+| Repo | Area |
+|:---|:---|
+| [Machine-Learning](https://github.com/anshuu-prajapati/Machine-Learning) | Classic ML notebooks and experiments |
+| [Customer_agent](https://github.com/anshuu-prajapati/Customer_agent) | Customer support agent |
+| [BizpilotAi](https://github.com/anshuu-prajapati/BizpilotAi) | AI business assistant |
+| [quickGpt](https://github.com/anshuu-prajapati/quickGpt) | ChatGPT-style web app |
+| [Ai-study-tracker](https://github.com/anshuu-prajapati/Ai-study-tracker) | AI study tracker |
+| [Prescripto](https://github.com/anshuu-prajapati/Prescripto) · [LMS](https://github.com/anshuu-prajapati/LMS) · [SnapUI](https://github.com/anshuu-prajapati/SnapUI) | Full-stack MERN apps |
 
-</div>
+→ [See all repositories](https://github.com/anshuu-prajapati?tab=repositories)
 
----
-
-## About Me
-
-**AI Engineer @ Maaze Underwriting Pvt. Solution** · 2+ years
-
-I build intelligent systems that go from idea to production. My work spans **GenAI, RAG, AI Agents, Voice AI, Computer Vision** and **WhatsApp automation** — mostly in Python, FastAPI, LangGraph and AWS Bedrock.
-
-I'm not interested in demos that never ship. Everything I build is designed to run in the real world — handling real users, real edge cases, and real load.
-
----
-
-## Featured Projects
-
-| Project | What it does | Stack |
-|:---|:---|:---|
-| [GPS Fleet Voice Agent](https://github.com/anshuu-prajapati/gps-voice-agent) | Outbound voice calls to drivers, extracts service needs in Hindi/Hinglish via LLM | FastAPI · Twilio · LangGraph · Bedrock |
-| [Vehicle Support Chatbot](https://github.com/anshuu-prajapati/Vehicle_support_chatbot) | RAG-powered WhatsApp support with vehicle monitoring and ticket workflows | FastAPI · Llama 3.3 70B · Qdrant · PostgreSQL |
-| [Deep Person Re-ID](https://github.com/anshuu-prajapati/Deep-person-reid) | Cross-frame identity matching across video streams | PyTorch · Torchreid · DeepSORT · CUDA |
-| [WhatsApp GPS Bot](https://github.com/anshuu-prajapati/whatsapp-bot) | Fleet status, service booking and bulk updates over WhatsApp | Python · WhatsApp Cloud API · LLM |
-| [AI Software Engineer](https://github.com/anshuu-prajapati/AI-Software) | Multi-model pipeline: PRD to architecture to code to review to test | LangGraph · Multi-LLM routing |
-| [AI Site Builder](https://github.com/anshuu-prajapati/ai-site-builder) | AI-powered website generation platform | React · Node.js · PostgreSQL · OpenRouter |
+</details>
 
 ---
 
-## Tech Stack
+<!-- ═══════════════════════════════ STACK ═══════════════════════════════ -->
+<a id="stack"></a>
+## `04` Tech Stack
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0B1020?style=for-the-badge&logo=python&logoColor=22D3EE)
-![JavaScript](https://img.shields.io/badge/JavaScript-0B1020?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0B1020?style=for-the-badge&logo=typescript&logoColor=3178C6)
-![Java](https://img.shields.io/badge/Java-0B1020?style=for-the-badge&logo=openjdk&logoColor=FF9900)
-![C](https://img.shields.io/badge/C-0B1020?style=for-the-badge&logo=c&logoColor=22D3EE)
-![C++](https://img.shields.io/badge/C++-0B1020?style=for-the-badge&logo=c%2B%2B&logoColor=8B5CF6)
-
-**AI / ML & GenAI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0B1020?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0B1020?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0B1020?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
-![OpenCV](https://img.shields.io/badge/OpenCV-0B1020?style=for-the-badge&logo=opencv&logoColor=22D3EE)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-0B1020?style=for-the-badge&logo=yolo&logoColor=22D3EE)
-![LangChain](https://img.shields.io/badge/LangChain-0B1020?style=for-the-badge&logo=chainlink&logoColor=22D3EE)
-![LangGraph](https://img.shields.io/badge/LangGraph-0B1020?style=for-the-badge&logo=langchain&logoColor=8B5CF6)
-![Amazon Bedrock](https://img.shields.io/badge/Amazon_Bedrock-0B1020?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-![MLflow](https://img.shields.io/badge/MLflow-0B1020?style=for-the-badge&logo=mlflow&logoColor=22D3EE)
-![FAISS](https://img.shields.io/badge/FAISS-0B1020?style=for-the-badge&logo=meta&logoColor=22D3EE)
-![Qdrant](https://img.shields.io/badge/Qdrant-0B1020?style=for-the-badge&logoColor=EF4444)
-![Ollama](https://img.shields.io/badge/Ollama-0B1020?style=for-the-badge&logo=ollama&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-0B1020?style=for-the-badge&logo=numpy&logoColor=4DABCF)
-![Pandas](https://img.shields.io/badge/Pandas-0B1020?style=for-the-badge&logo=pandas&logoColor=8B5CF6)
-![SciPy](https://img.shields.io/badge/SciPy-0B1020?style=for-the-badge&logo=scipy&logoColor=22D3EE)
-
-**Data Visualization**
-
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0B1020?style=for-the-badge&logo=python&logoColor=22D3EE)
-![Plotly](https://img.shields.io/badge/Plotly-0B1020?style=for-the-badge&logo=plotly&logoColor=8B5CF6)
-![Seaborn](https://img.shields.io/badge/Seaborn-0B1020?style=for-the-badge&logo=python&logoColor=4DABCF)
-![Chart.js](https://img.shields.io/badge/Chart.js-0B1020?style=for-the-badge&logo=chart.js&logoColor=F5788D)
-
-**Backend & Frameworks**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0B1020?style=for-the-badge&logo=fastapi&logoColor=22D3EE)
-![Flask](https://img.shields.io/badge/Flask-0B1020?style=for-the-badge&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-0B1020?style=for-the-badge&logo=node.js&logoColor=68A063)
-![React](https://img.shields.io/badge/React-0B1020?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0B1020?style=for-the-badge&logo=next.js&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-0B1020?style=for-the-badge&logo=streamlit&logoColor=FF4B4B)
-
-**Databases & Integrations**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0B1020?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-0B1020?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![Redis](https://img.shields.io/badge/Redis-0B1020?style=for-the-badge&logo=redis&logoColor=DC382D)
-![MySQL](https://img.shields.io/badge/MySQL-0B1020?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![WhatsApp API](https://img.shields.io/badge/WhatsApp_API-0B1020?style=for-the-badge&logo=whatsapp&logoColor=25D366)
-![Twilio](https://img.shields.io/badge/Twilio-0B1020?style=for-the-badge&logo=twilio&logoColor=F22F46)
-
-**Infrastructure & Tools**
-
-![Docker](https://img.shields.io/badge/Docker-0B1020?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-0B1020?style=for-the-badge&logo=apacheairflow&logoColor=017CEE)
-![AWS](https://img.shields.io/badge/AWS-0B1020?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-0B1020?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
-![Git](https://img.shields.io/badge/Git-0B1020?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0B1020?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-0B1020?style=for-the-badge&logo=vercel&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-0B1020?style=for-the-badge&logo=figma&logoColor=F24E1E)
-![Notion](https://img.shields.io/badge/Notion-0B1020?style=for-the-badge&logo=notion&logoColor=white)
+| | |
+|:---|:---|
+| **Languages** | ![](https://img.shields.io/badge/Python-201E1D?style=flat-square&logo=python&logoColor=EC3013) ![](https://img.shields.io/badge/TypeScript-201E1D?style=flat-square&logo=typescript&logoColor=EC3013) ![](https://img.shields.io/badge/JavaScript-201E1D?style=flat-square&logo=javascript&logoColor=EC3013) ![](https://img.shields.io/badge/Java-201E1D?style=flat-square&logo=openjdk&logoColor=EC3013) ![](https://img.shields.io/badge/C-201E1D?style=flat-square&logo=c&logoColor=EC3013) ![](https://img.shields.io/badge/C++-201E1D?style=flat-square&logo=cplusplus&logoColor=EC3013) |
+| **ML & Vision** | ![](https://img.shields.io/badge/PyTorch-201E1D?style=flat-square&logo=pytorch&logoColor=EC3013) ![](https://img.shields.io/badge/TensorFlow-201E1D?style=flat-square&logo=tensorflow&logoColor=EC3013) ![](https://img.shields.io/badge/scikit--learn-201E1D?style=flat-square&logo=scikitlearn&logoColor=EC3013) ![](https://img.shields.io/badge/OpenCV-201E1D?style=flat-square&logo=opencv&logoColor=EC3013) ![](https://img.shields.io/badge/Transformers-201E1D?style=flat-square&logo=huggingface&logoColor=EC3013) ![](https://img.shields.io/badge/YOLOv8-201E1D?style=flat-square) ![](https://img.shields.io/badge/Whisper-201E1D?style=flat-square&logo=openai&logoColor=EC3013) |
+| **GenAI & Agents** | ![](https://img.shields.io/badge/LangGraph-201E1D?style=flat-square&logo=langchain&logoColor=EC3013) ![](https://img.shields.io/badge/LangChain-201E1D?style=flat-square&logo=langchain&logoColor=EC3013) ![](https://img.shields.io/badge/AWS_Bedrock-201E1D?style=flat-square&logo=amazonaws&logoColor=EC3013) ![](https://img.shields.io/badge/OpenAI_/_Azure-201E1D?style=flat-square&logo=openai&logoColor=EC3013) ![](https://img.shields.io/badge/Groq-201E1D?style=flat-square) ![](https://img.shields.io/badge/Ollama-201E1D?style=flat-square&logo=ollama&logoColor=EC3013) |
+| **Retrieval** | ![](https://img.shields.io/badge/Pinecone-201E1D?style=flat-square) ![](https://img.shields.io/badge/Qdrant-201E1D?style=flat-square) ![](https://img.shields.io/badge/FAISS-201E1D?style=flat-square&logo=meta&logoColor=EC3013) ![](https://img.shields.io/badge/Knowledge_Graphs-201E1D?style=flat-square) |
+| **Backend** | ![](https://img.shields.io/badge/FastAPI-201E1D?style=flat-square&logo=fastapi&logoColor=EC3013) ![](https://img.shields.io/badge/Flask-201E1D?style=flat-square&logo=flask&logoColor=EC3013) ![](https://img.shields.io/badge/Node.js-201E1D?style=flat-square&logo=nodedotjs&logoColor=EC3013) ![](https://img.shields.io/badge/React-201E1D?style=flat-square&logo=react&logoColor=EC3013) ![](https://img.shields.io/badge/Next.js-201E1D?style=flat-square&logo=nextdotjs&logoColor=EC3013) ![](https://img.shields.io/badge/Streamlit-201E1D?style=flat-square&logo=streamlit&logoColor=EC3013) |
+| **Data** | ![](https://img.shields.io/badge/PostgreSQL-201E1D?style=flat-square&logo=postgresql&logoColor=EC3013) ![](https://img.shields.io/badge/MongoDB-201E1D?style=flat-square&logo=mongodb&logoColor=EC3013) ![](https://img.shields.io/badge/Redis-201E1D?style=flat-square&logo=redis&logoColor=EC3013) ![](https://img.shields.io/badge/MySQL-201E1D?style=flat-square&logo=mysql&logoColor=EC3013) |
+| **Infra** | ![](https://img.shields.io/badge/Docker-201E1D?style=flat-square&logo=docker&logoColor=EC3013) ![](https://img.shields.io/badge/Kubernetes-201E1D?style=flat-square&logo=kubernetes&logoColor=EC3013) ![](https://img.shields.io/badge/AWS-201E1D?style=flat-square&logo=amazonaws&logoColor=EC3013) ![](https://img.shields.io/badge/Google_Cloud-201E1D?style=flat-square&logo=googlecloud&logoColor=EC3013) ![](https://img.shields.io/badge/Git-201E1D?style=flat-square&logo=git&logoColor=EC3013) ![](https://img.shields.io/badge/Vercel-201E1D?style=flat-square&logo=vercel&logoColor=EC3013) |
 
 ---
 
-## Achievements & Certifications
-
-<div align="center">
+<!-- ═══════════════════════════════ ACHIEVEMENTS ═══════════════════════════════ -->
+<a id="achievements"></a>
+## `05` Achievements & Certifications
 
 | Achievement | Area |
 |:---|:---|
-| Smart India Hackathon (SIH) | AI / Technology |
-| DS2S Hackathon | AI / Software Engineering |
-| GDG Program Achievement | Developer Community |
-| AI/ML Certification — Cisco | Artificial Intelligence / ML |
-| AI/ML Certification — IBM | Artificial Intelligence / ML |
-
-</div>
+| **Smart India Hackathon (SIH)** | AI / Technology |
+| **DS2S Hackathon** | AI / Software Engineering |
+| **GDG Program Achievement** | Developer Community |
+| **AI/ML Certification — Cisco** | Artificial Intelligence / ML |
+| **AI/ML Certification — IBM** | Artificial Intelligence / ML |
 
 ---
 
-## GitHub Stats
+<!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
+<a id="stats"></a>
+## `06` GitHub Stats
 
-<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=anshuu-prajapati&show_icons=true&bg_color=201E1D&title_color=EC3013&text_color=EAE7E7&icon_color=EC3013&border_color=444141&border_radius=0"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anshuu-prajapati&layout=compact&bg_color=201E1D&title_color=EC3013&text_color=EAE7E7&border_color=444141&border_radius=0"/>
 
-![](https://github-readme-stats.vercel.app/api?username=anshuu-prajapati&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false)
+<img width="100%" src="https://streak-stats.demolab.com/?user=anshuu-prajapati&background=201E1D&border=444141&ring=EC3013&fire=EC3013&currStreakNum=F8F4F4&sideNums=F8F4F4&currStreakLabel=EC3013&sideLabels=9B9797&dates=7D7979&stroke=444141&border_radius=0"/>
 
-![](https://streak-stats.demolab.com/?user=anshuu-prajapati&theme=midnight-purple&hide_border=false)
+---
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=anshuu-prajapati&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-<br/>
-
-![GitHub User's stars](https://img.shields.io/github/stars/anshuu-prajapati?style=for-the-badge&labelColor=000000&color=7B2FBE)
-
-<br/>
-
-
-
-![snake](https://github.com/Varn1t/Varn1t/blob/output/github-contribution-grid-snake-dark.svg)
-
-<br/>
-
-![](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&pause=1000&color=8B5CF6&center=true&vCenter=true&width=650&lines=AI+Engineer+%7C+GenAI+%7C+Computer+Vision;LangGraph+Agents+%7C+Voice+AI+Systems;RAG+%7C+WhatsApp+Automation+%7C+AWS+Bedrock;Building+things+that+actually+work)
-
-<br/>
+<!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+<a id="contact"></a>
+## `07` Contact
 
 Open to AI/ML collabs, GenAI and LLM projects, AI Agent work, Voice AI, Computer Vision, and interesting startup ideas.
 
-<br/>
-
-<a href="mailto:anshuuprajapati01@gmail.com">
-<img src="https://img.shields.io/badge/Let's_Build_Something-22D3EE?style=for-the-badge&logo=gmail&logoColor=0B1020"/>
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,50:312E81,100:0B1020&height=100&section=footer" width="100%"/>
-
-</div>
+<a href="mailto:anshuuprajapati01@gmail.com"><img src="assets/footer.svg" width="100%" alt="Let's build something — anshuuprajapati01@gmail.com"/></a>
