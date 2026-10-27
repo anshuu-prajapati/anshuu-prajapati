@@ -8,7 +8,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-0B1020?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anshuu-prajapati)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0B1020?style=for-the-badge&logo=linkedin&logoColor=22D3EE)](https://www.linkedin.com/in/anshuu-prajapati/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0B1020?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://anshu-six.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0B1020?style=for-the-badge&logo=vercel&logoColor=8B5CF6)](https://anshu.tech/)
 [![Email](https://img.shields.io/badge/Email-0B1020?style=for-the-badge&logo=gmail&logoColor=22D3EE)](mailto:anshuuprajapati01@gmail.com)
 
 <br/>
